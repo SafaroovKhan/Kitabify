@@ -19,7 +19,7 @@ const Books = () => {
     
       <View style={styles.bookssection}>
         <View style={styles.booktextbox}>
-          <Text style={styles.booktext}>Books for you:</Text>
+          <Text style={styles.booktext}>Genre</Text>
         </View>
         <Row style={styles.booksrow}>
           <Col cols={6}>

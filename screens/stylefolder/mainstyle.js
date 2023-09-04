@@ -3,8 +3,16 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
     androidsafearea: {
         flex: 1,
-        backgroundColor: "#FAF5E4",
+        backgroundColor: "#EDE0D4",
         paddingTop: Platform.OS === 'android' ? 25 : 0
+    },
+    homeScreenBackground: {
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        zIndex: -10
     },
     text: {
         fontSize: 24,
@@ -90,7 +98,7 @@ export const styles = StyleSheet.create({
         fontSize: 20,
         color: "#fff",
         fontWeight: "bold",
-        textAlign: "center"
+        textContent: "center"
     },
     subButton: {
         fontSize: 40,
@@ -144,7 +152,7 @@ export const styles = StyleSheet.create({
     topheadertext: {
         fontSize: 40,
         fontWeight: 500,
-        color: "#4E413B",
+        color: "#000",
     },
     genrecontainer: {
         width: "auto",
@@ -191,16 +199,19 @@ export const styles = StyleSheet.create({
         justifyContent: "flex-start",
         flex: 2,
         gap: 20,
-        paddingTop: 30,
+        paddingTop: 10,
     },
     booktextbox: {
         width: "100%",
         height: "auto",
         paddingLeft: 20,
+        paddingRight: 20
     },
     booktext: {
-        fontSize: 32,
-        color: "#4E413B"
+        fontSize: 30,
+        borderBottomWidth: 3,
+        borderBottomColor: "#FF9900",
+        color: "#000",
     },
     booksrow: {
         gap: 40
@@ -268,6 +279,41 @@ export const styles = StyleSheet.create({
     },
     playericon: {
         color: "#fafafa"
+    },
+    searcbarscreen: {
+        width: "100%",
+        height: "auto",
+    },
+    searchbarbox: {
+        witdh: "100%",
+        height: 100,
+        alignContent: "center",
+        justifyContent: "center"
+    },
+    genreSearchBox: {
+        width: "100%",
+        marginTop: 30,
+        alignItems: "center",
+        justifyContent: "flex-start"
+    },
+    genreRow: {
+        gap: 30,
+        marginBottom: 10
+    },
+    genreBoxBtn: {
+        width: 150,
+        height: 100,
+        borderRadius: 15,
+        padding: 10,
+        backgroundColor: "#FF9900",
+        alignItems: "flex-start",
+        justifyContent: "flex-start"
+    },
+    genreBoxBtnText: {
+        fontSize: 28,
+        color: "#fff",
     }
 
+
+    
 })

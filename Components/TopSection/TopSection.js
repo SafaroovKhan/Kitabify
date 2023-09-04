@@ -6,7 +6,7 @@ import ProfileCircle from './ProfileCircle'
 const TopSection = () => {
   return (
     <View style={styles.topsection}>
-        <Text style={styles.topheadertext}>Welcome, Khan!</Text>
+        <Text style={styles.topheadertext}>Xoş Gəldin, Xan!</Text>
     </View>
   )
 }
