@@ -98,7 +98,7 @@ export const styles = StyleSheet.create({
         fontSize: 20,
         color: "#fff",
         fontWeight: "bold",
-        textContent: "center"
+        textAlign: "center"
     },
     subButton: {
         fontSize: 40,
@@ -234,14 +234,16 @@ export const styles = StyleSheet.create({
         width: "100%",
         height: "100%",
         alignItems: "center",
-        justifyContent: "flex-start"
+        justifyContent: "flex-start",
+        backgroundColor: "#ffe4ba",
+        marginTop: 10
     },
     bookpagecoverbox: {
         width: "100%",
         height: "70%",
-        backgroundColor: "#F0F0F0",
+        backgroundColor: "#EDE0D4",
         alignItems: "center",
-        justifyContent: "center"
+        justifyContent: "center",
     },
     bookcoverpage: {
         width: 300,
@@ -265,7 +267,7 @@ export const styles = StyleSheet.create({
         flexDirection: "row",
         alignItems: "center",
         justifyContent: "center",
-        backgroundColor: "blue",
+        backgroundColor: "#ff9900",
         borderRadius: 1000,
         paddingTop: 5,
         paddingBottom: 5,
@@ -312,7 +314,189 @@ export const styles = StyleSheet.create({
     genreBoxBtnText: {
         fontSize: 28,
         color: "#fff",
-    }
+    },
+    genrefigure: {
+        width: 160,
+        height: 100,
+        borderRadius: 15,
+        padding: 10
+    },
+    genrefiguretext: {
+        fontSize: 24,
+        fontFamily: "Roboto",
+        color: "#fff"
+    },
+    myLibrary: {
+        width: "100%", 
+        height: "auto",
+    },
+    libTopMenu: {
+        width: "100%",
+        height: 80,
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "space-evenly",
+        borderBottomColor: "#FF9900", 
+        borderBottomWidth: 2,
+    },
+    libMenuBtnLeft: {
+        width: "50%",
+        height: "100%",
+        alignItems: "center",
+        justifyContent: "center",
+        borderRightWidth: 1,
+        borderRightColor: "#FF9900"
+    },
+    libMenuBtnRight: {
+        width: "50%",
+        height: "100%",
+        alignItems: "center",
+        justifyContent: "center",
+        borderLeftWidth: 1,
+        borderLeftColor: "#FF9900"
+    },
+    libMenuText: {
+        fontSize: 20,
+        fontFamily: "Roboto"
+    },
+
+    selectedBookContainer: {
+        width: "100%",
+        alignItems: "flex-start",
+        justifyContent: "flex-start",
+        marginTop: 30,
+        paddingLeft: 15,
+        paddingRight: 15,
+    },
+    selectedBookBox: {
+        width: "100%",
+        height: 200,
+        backgroundColor: "#ffd18c",
+        marginBottom: 10,
+        flexDirection: "row",
+        alignItems: "flex-start",
+        justifyContent: "flex-start",
+        borderRadius: 15
+    },
+    selectedBookCoverBox: {
+        width: 150,
+        height:200,
+    },
+    selectedBookCover: {
+        width: 150,
+        height:200,
+        borderRadius: 15
+    },
+    selectedBookContent: {
+        width: 240,
+        padding: 10,
+        alignItems: "flex-start",
+        justifyContent: "flex-start",
+        gap: 10
+    },
+    selectedBookHeader: {
+        fontSize: 20,
+        fontFamily: "Roboto"
+    },
+    selectedBookDescription: {
+        fontSize: 14,
+        fontFamily: "Roboto"
+    },
+    libPlayBtnBox: {
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "center",
+        gap: 110,
+        marginTop: 25
+    },
+    libPlayBtn: {
+        paddingTop: 5,
+        paddingBottom: 5,
+        paddingLeft: 15,
+        paddingRight: 15,
+        backgroundColor: "#FF9900",
+        borderRadius: 15
+    },
+    libPlayBtnText: {
+        fontSize: 18, 
+        fontFamily: "Roboto",
+        
+    },
+    profileContainer: {
+        width: "100%",
+        height: "100%",
+        alignItems: "center",
+        justifyContent: "flex-start",
+        marginTop: 20
+    },
+    profileContent: {
+        width: "100%",
+        height: 400,
+        alignItems: "center",
+        justifyContent: "center"
+    },
+    profileUserName: {
+        fontSize: 55,
+        fontFamily: "Roboto",
+        textAlign: "center",
+        fontWeight: "bold",
+    },
+    profileUserFigureOne: {
+        backgroundColor: "#ffe4ba",
+        width: 350,
+        height: 350,
+        borderRadius: 1000,
+        position: "absolute",
+        zIndex: -1,
+        opacity: 0.5
+    },
+    profileUserFigureTwo: {
+        backgroundColor: "#ffca7a",
+        width: 250,
+        height: 250,
+        borderRadius: 1000,
+        position: "absolute",
+        zIndex: -1,
+        opacity: 0.5
+    },
+    profileUserFigureThree: {
+        backgroundColor: "#ff9900",
+        width: 150,
+        height: 150,
+        borderRadius: 1000,
+        position: "absolute",
+        zIndex: -1,
+        opacity: 0.5
+    },
+    profileUserFigureFour: {
+        backgroundColor: "#ff9900",
+        width: 50,
+        height: 50,
+        borderRadius: 1000,
+        position: "absolute",
+        zIndex: -1,
+        opacity: 0.5
+    },
+    profileMenu: {
+        width: "100%",
+        height: "100%",
+        backgroundColor: "#ffe4ba",
+        gap: 10,
+        borderTopRightRadius: 35,
+        borderTopLeftRadius: 35,
+        padding: 30
+    },
+    profileMenuBtn: {
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "flex-start",
+        gap: 10
+    },
+    profileMenuBtnText: {
+        fontSize: 24,
+        fontFamily: "Roboto"
+    },
+
 
 
     

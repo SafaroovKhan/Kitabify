@@ -4,7 +4,7 @@ import { useNavigation } from "@react-navigation/native"
 import {Column as Col, Row} from 'react-native-flexbox-grid';
 import { SearchBar } from 'react-native-elements'
 import {styles} from "../stylefolder/mainstyle.js"
-import GenreBox from '../../Components/Genres/GenreBox.js'
+import GenreFigure from '../../Components/Genres/GenreFigure.js'
 import FullBar from '../../Components/FullBar/FullBar.js'
 
 const SearchScreen = () => {
@@ -40,74 +40,34 @@ const SearchScreen = () => {
           <View style={styles.genreSearchBox}>
             <Row style={styles.genreRow}>
               <Col >
-                <GenreBox/>
+                <GenreFigure genreFigName={"Fantasy"} color={"#9900FF"}/>
               </Col>
               <Col>
-                <GenreBox/>
-              </Col>
-            </Row>
-            <Row style={styles.genreRow}>
-              <Col>
-                <GenreBox/>
-              </Col>
-              <Col>
-                <GenreBox/>
+                <GenreFigure genreFigName={"Roman"} color={"#0066FF"}/>
               </Col>
             </Row>
             <Row style={styles.genreRow}>
               <Col>
-                <GenreBox/>
+                <GenreFigure genreFigName={"Adventure"} color={"#FF9900"}/>
               </Col>
               <Col>
-                <GenreBox/>
-              </Col>
-            </Row>
-            <Row style={styles.genreRow}>
-              <Col>
-                <GenreBox/>
-              </Col>
-              <Col>
-                <GenreBox/>
+                <GenreFigure genreFigName={"Fiction"} color={"#1AFF00"}/>
               </Col>
             </Row>
             <Row style={styles.genreRow}>
               <Col>
-                <GenreBox/>
+                <GenreFigure genreFigName={"Drama"} color={"#FF0000"}/>
               </Col>
               <Col>
-                <GenreBox/>
-              </Col>
-            </Row>
-            <Row style={styles.genreRow}>
-              <Col>
-                <GenreBox/>
-              </Col>
-              <Col>
-                <GenreBox/>
+                <GenreFigure genreFigName={"Action"} color={"#00AAFF"}/>
               </Col>
             </Row>
             <Row style={styles.genreRow}>
               <Col>
-                <GenreBox/>
+                <GenreFigure genreFigName={"Logic"} color={"#1AFF00"}/>
               </Col>
               <Col>
-                <GenreBox/>
-              </Col>
-            </Row>
-            <Row style={styles.genreRow}>
-              <Col>
-                <GenreBox/>
-              </Col>
-              <Col>
-                <GenreBox/>
-              </Col>
-            </Row>
-            <Row style={styles.genreRow}>
-              <Col>
-                <GenreBox/>
-              </Col>
-              <Col>
-                <GenreBox/>
+                <GenreFigure genreFigName={"Discipline"} color={"#FF0000"}/>
               </Col>
             </Row>
           </View>

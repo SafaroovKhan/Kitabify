@@ -6,11 +6,14 @@ import BookPage from './screens/BookPage/BookPage';
 import LoadingScreen from './screens/LoadingScreen/LoadingScreen';
 import Subscription from './screens/Subscription/Subscription';
 import SearchScreen from './screens/SearchScreen/SearchScreen';
+import MyLibrary from './screens/MyLibrary/MyLibrary';
+import Profile from './screens/Profile/Profile';
 
 const Stack = createNativeStackNavigator();
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
+  const [isSubScreen, setIsSubScreen] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
@@ -18,20 +21,34 @@ export default function App() {
     }, 3000);
   }, []);
 
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIsSubScreen(true)
+  //   }, 10000);
+  // }, [])
+
   return (
     <NavigationContainer>
-      {isLoading ? (
-        <Stack.Navigator>
+      <Stack.Navigator>
+        {isLoading ? (
           <Stack.Screen name="Loading" component={LoadingScreen} options={{ headerShown: false }} />
-        </Stack.Navigator>
-      ) : (
-        <Stack.Navigator>
-          {/* <Stack.Screen name="SubPage" component={Subscription} /> */}
-          <Stack.Screen name="Search" component={SearchScreen} />
-          <Stack.Screen name="Home" component={HomeScreen} />
-          <Stack.Screen name="BookPage" component={BookPage} />
-        </Stack.Navigator>
-      )}
+        ): 
+        (
+          <React.Fragment>
+            {isSubScreen ? (
+              <Stack.Screen name='SubScreen' component={Subscription}/>
+            ) : (
+              <>
+                <Stack.Screen name="Home" component={HomeScreen} />
+                <Stack.Screen name="Search" component={SearchScreen} />
+                <Stack.Screen name="Library" component={MyLibrary} />
+                <Stack.Screen name="BookPage" component={BookPage} />
+                <Stack.Screen name="Profile" component={Profile} />
+              </>
+            )}
+          </React.Fragment>
+        )}
+      </Stack.Navigator>
     </NavigationContainer>
   );
 }

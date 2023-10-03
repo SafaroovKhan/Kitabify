@@ -12,8 +12,11 @@ const Player = () => {
       <View style={styles.sliderbox}>
         <Slider style={styles.playerslider}  minimumValue={0}
         maximumValue={1}
-        minimumTrackTintColor="blue"
-        maximumTrackTintColor="#000000" />
+        minimumTrackTintColor="#ff9900"
+        maximumTrackTintColor="#000000"
+        thumbTintColor='transparent'
+        
+         />
       </View>
       <View style={styles.playericonbox}>
         <TouchableOpacity style={styles.iconbox}>
