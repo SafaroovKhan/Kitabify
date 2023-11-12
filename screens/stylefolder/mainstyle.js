@@ -255,6 +255,15 @@ export const styles = StyleSheet.create({
         width: "100%",
         height: 227,
     },
+    bookpagetextbox: {
+        width: "100%",
+        height: "auto",
+        alignItems: "center",
+        marginTop: 10
+    },
+    bookpagetext: {
+        fontSize: 24,
+    },
     playerbox: {
         width: "100%",
         height: "100%",

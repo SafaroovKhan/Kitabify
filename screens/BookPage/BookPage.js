@@ -22,6 +22,9 @@ const BookPage = () => {
           <Image source={imgUrl}  style={styles.bookcoverpage}/>
         </View>
         <View style={styles.bookpageplayerbox}>
+          <View style={styles.bookpagetextbox}>
+            <Text style={styles.bookpagetext}>48 laws of Power</Text>
+          </View>
           <Player/>
         </View>
       </View>

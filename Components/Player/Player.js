@@ -15,7 +15,6 @@ const Player = () => {
         minimumTrackTintColor="#ff9900"
         maximumTrackTintColor="#000000"
         thumbTintColor='transparent'
-        
          />
       </View>
       <View style={styles.playericonbox}>
