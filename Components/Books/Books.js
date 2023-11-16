@@ -14,51 +14,49 @@ import bookcover8 from "./BooksImages/bookcover8.jpeg"
 import bookcover9 from "./BooksImages/bookcover9.png"
 import bookcover10 from "./BooksImages/bookcover10.jpeg"
 
+
 const Books = () => {
   return (
     
       <View style={styles.bookssection}>
-        <View style={styles.booktextbox}>
-          <Text style={styles.booktext}>Genre</Text>
-        </View>
         <Row style={styles.booksrow}>
           <Col cols={6}>
-            <Book  imgUrl={bookcover1}/>
+            <Book  imgUrl={bookcover1} bookHeader={"The 48 laws of the Power"} />
           </Col>
           <Col cols={6}>
-            <Book  imgUrl={bookcover2}/>
+            <Book  imgUrl={bookcover2} bookHeader={"Sapiens"}/>
           </Col>
         </Row>
         <Row style={styles.booksrow}>
           <Col cols={6}>
-            <Book  imgUrl={bookcover3}/>
+            <Book  imgUrl={bookcover3} bookHeader={"Atomic Habits"}/>
           </Col>
           <Col cols={6}>
-            <Book  imgUrl={bookcover4}/>
+            <Book  imgUrl={bookcover4} bookHeader={"Rich Dad, Poor Dad"}/>
           </Col>
         </Row>  
         <Row style={styles.booksrow}>
           <Col cols={6}>
-            <Book  imgUrl={bookcover5}/>
+            <Book  imgUrl={bookcover5} bookHeader={"Can't Hurt Me!"}/>
           </Col>
           <Col cols={6}>
-            <Book  imgUrl={bookcover6}/>
+            <Book  imgUrl={bookcover6}  bookHeader={"The 7 Habits of Highly Effective People"}/>
           </Col>
         </Row>
         <Row style={styles.booksrow}>
           <Col cols={6}>
-            <Book  imgUrl={bookcover7}/>
+            <Book  imgUrl={bookcover7} bookHeader={"Outliers"}/>
           </Col>
           <Col cols={6}>
-            <Book  imgUrl={bookcover8}/>
+            <Book  imgUrl={bookcover8} bookHeader={"The 5 AM Club"}/>
           </Col>
         </Row>
         <Row style={styles.booksrow}> 
           <Col cols={6}>
-            <Book  imgUrl={bookcover9}/>
+            <Book  imgUrl={bookcover9} bookHeader={"Mastery"}/>
           </Col>
           <Col cols={6}>
-            <Book  imgUrl={bookcover10}/>
+            <Book  imgUrl={bookcover10} bookHeader={"Ermis"}/>
           </Col>
         </Row>
       </View>

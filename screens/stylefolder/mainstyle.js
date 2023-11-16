@@ -385,7 +385,8 @@ export const styles = StyleSheet.create({
         flexDirection: "row",
         alignItems: "flex-start",
         justifyContent: "flex-start",
-        borderRadius: 15
+        borderRadius: 15,
+        gap: 5
     },
     selectedBookCoverBox: {
         width: 150,
@@ -397,11 +398,10 @@ export const styles = StyleSheet.create({
         borderRadius: 15
     },
     selectedBookContent: {
-        width: 240,
-        padding: 10,
+        width: 200,
+        padding: 5,
         alignItems: "flex-start",
         justifyContent: "flex-start",
-        gap: 10
     },
     selectedBookHeader: {
         fontSize: 20,
@@ -415,7 +415,7 @@ export const styles = StyleSheet.create({
         flexDirection: "row",
         alignItems: "center",
         justifyContent: "center",
-        gap: 110,
+        gap: 100,
         marginTop: 25
     },
     libPlayBtn: {

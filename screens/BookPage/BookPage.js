@@ -7,7 +7,7 @@ import Player from '../../Components/Player/Player.js';
 const BookPage = () => {
   const navigation = useNavigation();
   const route = useRoute();
-  const { imgUrl } = route.params; // Get the imgUrl parameter from the route
+  const { imgUrl, bookHeader } = route.params; // Get the imgUrl parameter from the route
 
   useLayoutEffect(() => {
     navigation.setOptions({
@@ -23,7 +23,7 @@ const BookPage = () => {
         </View>
         <View style={styles.bookpageplayerbox}>
           <View style={styles.bookpagetextbox}>
-            <Text style={styles.bookpagetext}>48 laws of Power</Text>
+            <Text style={styles.bookpagetext}>{bookHeader}</Text>
           </View>
           <Player/>
         </View>
