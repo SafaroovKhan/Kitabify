@@ -3,11 +3,11 @@ import React from 'react'
 import { styles } from "../../screens/stylefolder/mainstyle.js"
 import { useNavigation } from '@react-navigation/native';
 
-const Book = ({ imgUrl, bookHeader}) => {
+const Book = ({ imgUrl, bookHeader, bookAuthor, bookAboutText}) => {
   const navigation = useNavigation();
 
   const handleBookPress = () => {
-    navigation.navigate("BookPage", { imgUrl, bookHeader }); // Pass imgUrl as a parameter
+    navigation.navigate("BookPreview", {imgUrl, bookHeader,  bookAuthor, bookAboutText}); // Pass imgUrl as a parameter
   };
 
   return (

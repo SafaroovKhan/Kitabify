@@ -8,12 +8,17 @@ import Subscription from './screens/Subscription/Subscription';
 import SearchScreen from './screens/SearchScreen/SearchScreen';
 import MyLibrary from './screens/MyLibrary/MyLibrary';
 import Profile from './screens/Profile/Profile';
+import BookPreviewPage from './screens/BookPreviewPage/BookPreviewPage';
+import {useFonts} from "expo-font"
 
 const Stack = createNativeStackNavigator();
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [isSubScreen, setIsSubScreen] = useState(false);
+  const [fontsLoaded] = useFonts({
+    'Lora': require('./assets/fonts/Lora.ttf'),
+  });
 
   useEffect(() => {
     setTimeout(() => {
@@ -42,8 +47,9 @@ export default function App() {
                 <Stack.Screen name="Home" component={HomeScreen} />
                 <Stack.Screen name="Search" component={SearchScreen} />
                 <Stack.Screen name="Library" component={MyLibrary} />
-                <Stack.Screen name="BookPage" component={BookPage} />
                 <Stack.Screen name="Profile" component={Profile} />
+                <Stack.Screen name="BookPage" component={BookPage} />
+                <Stack.Screen name="BookPreview" component={BookPreviewPage} />
               </>
             )}
           </React.Fragment>

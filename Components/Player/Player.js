@@ -10,22 +10,29 @@ const Player = () => {
   return (
     <View style={styles.playerbox}>
       <View style={styles.sliderbox}>
-        <Slider style={styles.playerslider}  minimumValue={0}
-        maximumValue={1}
+        <Slider style={styles.playerslider}  
+        value={10}
+        minimumValue={0}
+        maximumValue={100}
         minimumTrackTintColor="#ff9900"
         maximumTrackTintColor="#000000"
-        thumbTintColor='transparent'
+        thumbTintColor='#ff9900'
+        onSlidingComplete={() => {}}
          />
+         <View style={styles.playerBoxDurations}>
+          <Text style={styles.durationText}>00:00</Text>
+          <Text style={styles.durationText}>00:00</Text>
+         </View>
       </View>
       <View style={styles.playericonbox}>
         <TouchableOpacity style={styles.iconbox}>
-          <ChevronDoubleLeftIcon size={50} style={styles.playericon}/>
+          <ChevronDoubleLeftIcon size={30} style={styles.playericon}/>
         </TouchableOpacity>
         <TouchableOpacity style={styles.iconbox}>
-          <PlayIcon size={50} style={styles.playericon}/>
+          <PlayIcon size={40} style={styles.playericon}/>
         </TouchableOpacity>
         <TouchableOpacity style={styles.iconbox}>
-          <ChevronDoubleRightIcon size={50} style={styles.playericon}/>
+          <ChevronDoubleRightIcon size={30} style={styles.playericon}/>
         </TouchableOpacity>
       </View>
     </View>

@@ -21,42 +21,42 @@ const Books = () => {
       <View style={styles.bookssection}>
         <Row style={styles.booksrow}>
           <Col cols={6}>
-            <Book  imgUrl={bookcover1} bookHeader={"The 48 laws of the Power"} />
+            <Book  imgUrl={bookcover1} bookHeader={"The 48 Laws of Power"} bookAuthor={"Robert Greene"} bookAboutText={"Consequently, in his controversial book, “The 48 Laws of Power,” best-selling author Robert Greene argues that if you manage to seduce, charm, and deceive your opponents, you will attain the ultimate power. Greene states that the better you become at handing power, the better friend, lover, and person you will become."} />
           </Col>
           <Col cols={6}>
-            <Book  imgUrl={bookcover2} bookHeader={"Sapiens"}/>
+            <Book  imgUrl={bookcover2}  bookHeader={"Sapiens"} bookAuthor={"Yuval Noah Harari"} bookAboutText={"Consequently, in his controversial book, “The 48 Laws of Power,” best-selling author Robert Greene argues that if you manage to seduce, charm, and deceive your opponents, you will attain the ultimate power. Greene states that the better you become at handing power, the better friend, lover, and person you will become."}/>
           </Col>
         </Row>
         <Row style={styles.booksrow}>
           <Col cols={6}>
-            <Book  imgUrl={bookcover3} bookHeader={"Atomic Habits"}/>
+            <Book  imgUrl={bookcover3}  bookHeader={"Atomic Habits "} bookAuthor={"James Clear"} bookAboutText={"Consequently, in his controversial book, “The 48 Laws of Power,” best-selling author Robert Greene argues that if you manage to seduce, charm, and deceive your opponents, you will attain the ultimate power. Greene states that the better you become at handing power, the better friend, lover, and person you will become."}/>
           </Col>
           <Col cols={6}>
-            <Book  imgUrl={bookcover4} bookHeader={"Rich Dad, Poor Dad"}/>
+            <Book  imgUrl={bookcover4}  bookHeader={"Rich dad, Poor Dad"} bookAuthor={"Robert Kiyosaki"} bookAboutText={"Consequently, in his controversial book, “The 48 Laws of Power,” best-selling author Robert Greene argues that if you manage to seduce, charm, and deceive your opponents, you will attain the ultimate power. Greene states that the better you become at handing power, the better friend, lover, and person you will become."}/>
           </Col>
         </Row>  
         <Row style={styles.booksrow}>
           <Col cols={6}>
-            <Book  imgUrl={bookcover5} bookHeader={"Can't Hurt Me!"}/>
+            <Book  imgUrl={bookcover5}  bookHeader={"Can't Hurt Me!"} bookAuthor={"David Goggins"} bookAboutText={"Consequently, in his controversial book, “The 48 Laws of Power,” best-selling author Robert Greene argues that if you manage to seduce, charm, and deceive your opponents, you will attain the ultimate power. Greene states that the better you become at handing power, the better friend, lover, and person you will become."}/>
           </Col>
           <Col cols={6}>
-            <Book  imgUrl={bookcover6}  bookHeader={"The 7 Habits of Highly Effective People"}/>
+            <Book  imgUrl={bookcover6}   bookHeader={"The 7 Habits"} bookAuthor={"Stephen R.Cover"} bookAboutText={"Consequently, in his controversial book, “The 48 Laws of Power,” best-selling author Robert Greene argues that if you manage to seduce, charm, and deceive your opponents, you will attain the ultimate power. Greene states that the better you become at handing power, the better friend, lover, and person you will become."}/>
           </Col>
         </Row>
         <Row style={styles.booksrow}>
           <Col cols={6}>
-            <Book  imgUrl={bookcover7} bookHeader={"Outliers"}/>
+            <Book  imgUrl={bookcover7}  bookHeader={"Outliers"} bookAuthor={"Malcolm Gladwell"} bookAboutText={"Consequently, in his controversial book, “The 48 Laws of Power,” best-selling author Robert Greene argues that if you manage to seduce, charm, and deceive your opponents, you will attain the ultimate power. Greene states that the better you become at handing power, the better friend, lover, and person you will become."}/>
           </Col>
           <Col cols={6}>
-            <Book  imgUrl={bookcover8} bookHeader={"The 5 AM Club"}/>
+            <Book  imgUrl={bookcover8}  bookHeader={"The 5 AM Club"} bookAuthor={"Robin Sharma"} bookAboutText={"Consequently, in his controversial book, “The 48 Laws of Power,” best-selling author Robert Greene argues that if you manage to seduce, charm, and deceive your opponents, you will attain the ultimate power. Greene states that the better you become at handing power, the better friend, lover, and person you will become."}/>
           </Col>
         </Row>
         <Row style={styles.booksrow}> 
           <Col cols={6}>
-            <Book  imgUrl={bookcover9} bookHeader={"Mastery"}/>
+            <Book  imgUrl={bookcover9}  bookHeader={"Mastery"} bookAuthor={"Robert Greene"} bookAboutText={"Consequently, in his controversial book, “The 48 Laws of Power,” best-selling author Robert Greene argues that if you manage to seduce, charm, and deceive your opponents, you will attain the ultimate power. Greene states that the better you become at handing power, the better friend, lover, and person you will become."}/>
           </Col>
           <Col cols={6}>
-            <Book  imgUrl={bookcover10} bookHeader={"Ermis"}/>
+            <Book  imgUrl={bookcover10}  bookHeader={"Ermis"} bookAuthor={"Halil Cibran"} bookAboutText={"Consequently, in his controversial book, “The 48 Laws of Power,” best-selling author Robert Greene argues that if you manage to seduce, charm, and deceive your opponents, you will attain the ultimate power. Greene states that the better you become at handing power, the better friend, lover, and person you will become."}/>
           </Col>
         </Row>
       </View>

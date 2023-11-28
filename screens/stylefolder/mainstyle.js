@@ -1,6 +1,8 @@
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
+
+    // General Styling
     androidsafearea: {
         flex: 1,
         backgroundColor: "#EDE0D4",
@@ -16,12 +18,15 @@ export const styles = StyleSheet.create({
     },
     text: {
         fontSize: 24,
+        fontFamily: "Lora",
         color: "#4E413B", 
     },
     brandtext: {
         fontSize: 40,
+        fontFamily: "Lora",
         color: "#4E413B",
     },
+    // Loading Screen
     loadingscreen:{
         width: "100%",
         height: "100%",
@@ -40,6 +45,7 @@ export const styles = StyleSheet.create({
         width: 250,
         height: 250,
     },
+    // Subscription Screen
     subScreen: {
         width: "100%",
         height: "100%",
@@ -60,6 +66,7 @@ export const styles = StyleSheet.create({
     },
     subText: {
         fontSize: 40,
+        fontFamily: "Lora",
         color: "#fff",
         fontWeight: "bold",
         marginRight: 30, 
@@ -72,6 +79,7 @@ export const styles = StyleSheet.create({
     },
     subAbsoTextOne: {
         fontSize: 30,
+        fontFamily: "Lora",
         color: "#fff",
         fontWeight: "bold",
         textAlign:"center",
@@ -81,6 +89,7 @@ export const styles = StyleSheet.create({
     },
     subAbsoTextTwo: {
         fontSize: 30,
+        fontFamily: "Lora",
         color: "#fff",
         fontWeight: "bold",
         textAlign:"center",
@@ -96,6 +105,7 @@ export const styles = StyleSheet.create({
     },
     subAltTextOne: {
         fontSize: 20,
+        fontFamily: "Lora",
         color: "#fff",
         fontWeight: "bold",
         textAlign: "center"
@@ -113,6 +123,7 @@ export const styles = StyleSheet.create({
     },
     subAltTextTwo: {
         fontSize: 18,
+        fontFamily: "Lora",
         color: "#fff",
         textDecorationLine: "underline"
     },
@@ -120,6 +131,7 @@ export const styles = StyleSheet.create({
     icon: {
         color: "#FAFAFA",
     },
+    // Home Screen
     homescreentop: {
         flexDirection: "row",
         alignItems: "center",
@@ -151,7 +163,9 @@ export const styles = StyleSheet.create({
     },
     topheadertext: {
         fontSize: 40,
-        fontWeight: 500,
+        fontFamily: "Lora",
+        fontFamily: "Lora",
+        fontWeight: 400,
         color: "#000",
     },
     genrecontainer: {
@@ -170,10 +184,11 @@ export const styles = StyleSheet.create({
         paddingRight: 15,
         paddingLeft: 15,
         marginRight: 10,
-        elevation: 1,
+        elevation: 3,
     },
     genretxt: {
         fontSize: 20,
+        fontFamily: "Lora",
         color: "#FAFAFA"
     },
     fullbar: {
@@ -190,6 +205,7 @@ export const styles = StyleSheet.create({
         bottom: 30,
         right: 20
     },
+    // Book Section 
     bookssection: {
         width: "100%",
         height: "auto",
@@ -209,6 +225,7 @@ export const styles = StyleSheet.create({
     },
     booktext: {
         fontSize: 30,
+        fontFamily: "Lora",
         borderBottomWidth: 3,
         borderBottomColor: "#FF9900",
         color: "#000",
@@ -230,6 +247,7 @@ export const styles = StyleSheet.create({
         height: 250,
         borderRadius: 20
     },
+    // Book Page 
     bookpage: {
         width: "100%",
         height: "100%",
@@ -238,14 +256,29 @@ export const styles = StyleSheet.create({
         backgroundColor: "#ffe4ba",
         marginTop: 10
     },
+    bookpagetopbar: {
+        width: "100%",
+        alignItems: "flex-start",
+        marginTop: 20
+    },
+    gobackbtn: {
+        backgroundColor: "#FF9900",
+        borderRadius: 100,
+        padding: 10,
+        marginLeft: 20
+    },
+    gobackicon: {
+        color: "#fff",
+    },
     bookpagecoverbox: {
         width: "100%",
         height: "70%",
         backgroundColor: "#EDE0D4",
         alignItems: "center",
-        justifyContent: "center",
+        justifyContent: "flex-start",
+        gap: 20
     },
-    bookcoverpage: {
+    bookCover: {
         width: 300,
         height: 420,
         elevation: 3,
@@ -254,42 +287,45 @@ export const styles = StyleSheet.create({
     bookpageplayerbox: {
         width: "100%",
         height: 227,
-    },
-    bookpagetextbox: {
-        width: "100%",
-        height: "auto",
         alignItems: "center",
-        marginTop: 10
-    },
-    bookpagetext: {
-        fontSize: 24,
+        justifyContent: "center",
     },
     playerbox: {
         width: "100%",
         height: "100%",
         alignItems: "center",
         justifyContent: "flex-start",
-        gap: 35,
-        marginTop: 20
+        gap: 40,
     },
     playericonbox: {
         flexDirection: "row",
         alignItems: "center",
         justifyContent: "center",
-        backgroundColor: "#ff9900",
-        borderRadius: 1000,
-        paddingTop: 5,
-        paddingBottom: 5,
-        paddingLeft: 15,
-        paddingRight: 15,
-        gap: 55,
+        gap: 40,
+    },
+    sliderbox: {
+        width: "100%",
+        alignItems: "center",
+        justifyContent: "center",
     },
     playerslider: {
         width: 300,
         height: 40,
     },
+    playerBoxDurations: {
+        width: 270,
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "space-between"
+    },
+    iconbox: {
+        padding: 20,
+        backgroundColor: "#ff9900",
+        borderRadius: 100,
+        elevation: 3
+    },
     playericon: {
-        color: "#fafafa"
+        color: "white",
     },
     searcbarscreen: {
         width: "100%",
@@ -322,6 +358,7 @@ export const styles = StyleSheet.create({
     },
     genreBoxBtnText: {
         fontSize: 28,
+        fontFamily: "Lora",
         color: "#fff",
     },
     genrefigure: {
@@ -332,9 +369,11 @@ export const styles = StyleSheet.create({
     },
     genrefiguretext: {
         fontSize: 24,
+        fontFamily: "Lora",
         fontFamily: "Roboto",
         color: "#fff"
     },
+    // Library Page
     myLibrary: {
         width: "100%", 
         height: "auto",
@@ -366,7 +405,7 @@ export const styles = StyleSheet.create({
     },
     libMenuText: {
         fontSize: 20,
-        fontFamily: "Roboto"
+        fontFamily: "Lora",
     },
 
     selectedBookContainer: {
@@ -428,9 +467,10 @@ export const styles = StyleSheet.create({
     },
     libPlayBtnText: {
         fontSize: 18, 
-        fontFamily: "Roboto",
+        fontFamily: "Lora",
         
     },
+    // Profile Page 
     profileContainer: {
         width: "100%",
         height: "100%",
@@ -503,10 +543,103 @@ export const styles = StyleSheet.create({
     },
     profileMenuBtnText: {
         fontSize: 24,
-        fontFamily: "Roboto"
+        fontFamily: "Lora",
     },
 
+    // Book Preview Page
+    bookPreviewPage: {
+        width: "100%",
+    },
+    bookPreviewCoverBox: {
+        width: "100%",
+        height: 530,
+        alignItems: "center",
+        justifyContent: "center",
+        gap: 10,
+        marginBottom: 30
+    },
+    bookPreviewtopbar: {
+        width: "100%",
+        alignItems: "flex-start",
+        justifyContent: "flex-start",
+    },
+    bookPreviewContent: {
+        width: "100%",
+        paddingLeft: 10,
+        paddingRight: 10,
+        backgroundColor: "#ffe4ba"
+    },
+    bookPreviewBtnBox: {
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "center",
+        gap: 130,
+        position: "absolute",
+        top: -30,
+        left: 45,
+        zIndex: 100
+    },
+    bookPreviewBtn: {
+        backgroundColor: "#FF9900",
+        paddingTop: 10,
+        paddingRight: 30,
+        paddingBottom: 10,
+        paddingLeft: 30,
+        borderRadius: 15,
+        elevation: 3
+    },
+    bookPreviewTxt: {
+        fontSize: 24,
+        fontFamily: "Lora",
+        color: "#fff"
+    },
+    bookPreviewIconBtn: {
+        backgroundColor: "#FF9900",
+        padding: 20,
+        borderRadius: 100
+    },
+    bookPreviewIcon: {
+        color: "#fff"
+    },
+    bookPreviewAboutBox: {
+        width: "100%",
+        marginTop: 50,
+        gap: 20,
+        paddingLeft: 20,
+        paddingRight: 20
+    },
+    bookPreviewBookHeaderBox: {
+        paddingLeft: 10,
+        paddingRight: 10,
+        gap: 5
+    },
+    bookPreviewBookHeader: {
+        fontSize: 28,
+        fontFamily: "Lora",
+    },
+    bookPreviewBookAuthor: {
+        fontSize: 18,
+        fontFamily: "Lora",
+    },
+    bookPreviewAboutSection: {
+        backgroundColor: "#FF9900",
+        borderRadius: 15,
+        padding: 10,
+        gap: 10
+    },
+    bookPreviewAboutHeader: {
+        color: "#fff",
+        fontSize: 24,
+        fontFamily: "Lora",
+    },
+    bookPreviewAboutTxt: {
+        color: "#fff",
+        fontSize: 16,
+        fontFamily: "Lora",
+    }
+    
 
+    
 
     
 })
