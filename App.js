@@ -11,6 +11,7 @@ import Profile from './screens/Profile/Profile';
 import BookPreviewPage from './screens/BookPreviewPage/BookPreviewPage';
 import {useFonts} from "expo-font"
 
+
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -44,7 +45,7 @@ export default function App() {
               <Stack.Screen name='SubScreen' component={Subscription}/>
             ) : (
               <>
-                <Stack.Screen name="Home" component={HomeScreen} />
+                <Stack.Screen name="Home" component={HomeScreen}/>
                 <Stack.Screen name="Search" component={SearchScreen} />
                 <Stack.Screen name="Library" component={MyLibrary} />
                 <Stack.Screen name="Profile" component={Profile} />
