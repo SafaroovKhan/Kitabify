@@ -23,7 +23,6 @@ export const styles = StyleSheet.create({
     },
     brandtext: {
         fontSize: 40,
-        fontFamily: "Lora",
         color: "#4E413B",
     },
     // Loading Screen
@@ -370,7 +369,6 @@ export const styles = StyleSheet.create({
     genrefiguretext: {
         fontSize: 24,
         fontFamily: "Lora",
-        fontFamily: "Roboto",
         color: "#fff"
     },
     // Library Page
@@ -444,11 +442,11 @@ export const styles = StyleSheet.create({
     },
     selectedBookHeader: {
         fontSize: 20,
-        fontFamily: "Roboto"
+        fontFamily: "Lora"
     },
     selectedBookDescription: {
         fontSize: 14,
-        fontFamily: "Roboto"
+        fontFamily: "Lora"
     },
     libPlayBtnBox: {
         flexDirection: "row",
@@ -486,9 +484,8 @@ export const styles = StyleSheet.create({
     },
     profileUserName: {
         fontSize: 55,
-        fontFamily: "Roboto",
+        fontFamily: "Lora",
         textAlign: "center",
-        fontWeight: "bold",
     },
     profileUserFigureOne: {
         backgroundColor: "#ffe4ba",
@@ -636,7 +633,68 @@ export const styles = StyleSheet.create({
         color: "#fff",
         fontSize: 16,
         fontFamily: "Lora",
-    }
+    },
+    // Sign Up Page
+    signUpPage: {
+        width: "100%",
+        height: "100%",
+        alignItems: "center",
+        justifyContent: "flex-start",
+        gap: 180,
+        backgroundColor: "#FF9900"
+    },
+    signUpPageTopBar: {
+        width: "100%",
+        alignItems: "flex-start",
+        marginTop: 50
+    },
+    signUpPageGoBackBtn:{
+        backgroundColor: "#ffe4ba",
+        borderRadius: 100,
+        padding: 10,
+        marginLeft: 20
+    },
+    signUpPageGoBackIcon: {
+        color: "#FF9900"
+    },
+    signUpPageContainer: {
+        width: 330,
+        alignItems: "flex-start",
+        gap: 30
+    },
+    signUpPageHeader: {
+        fontSize: 50,
+        fontFamily: "Lora",
+        color: "#fff",
+        marginBottom: 5
+    },
+    signUpPageText:{
+        fontSize: 18,
+        fontFamily: "Lora",
+        color: "#fff",
+    },
+    signUpPageBtn: {
+        width: 320,
+        height: 70,
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "center",
+        gap: 3,
+        borderRadius:15,
+        backgroundColor: "#ffe4ba"
+    },
+    signUpPageBtnImg: {
+        width: 50,
+        height: 50,
+        margin: 0,
+        padding: 0
+    },
+    signUpPageBtnText: {
+        fontSize: 24,
+        fontFamily: "Lora"
+    },
+
+
     
 
     

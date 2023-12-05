@@ -18,7 +18,6 @@ const LoadingScreen = () => {
     <View style={styles.loadingscreen}>
         <Image source={loadingbackground} style={styles.loadingbackgroundimg}/>
         <Image source={img01} style={styles.loadinglogo}/>
-        <Text style={styles.brandtext}>Kitabify</Text>
     </View>
   )
 }
