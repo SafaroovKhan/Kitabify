@@ -38,7 +38,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        {isLoading && !fontsLoaded ? (
+        {isLoading ? (
           <Stack.Screen name="Loading" component={LoadingScreen} options={{ headerShown: false }} />
         ): 
         (
