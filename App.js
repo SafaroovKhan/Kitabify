@@ -47,13 +47,13 @@ export default function App() {
               <Stack.Screen name='SubScreen' component={Subscription}/>
             ) : (
               <>
+                <Stack.Screen name="SignUp" component={SignUp}/>
                 <Stack.Screen name="Home" component={HomeScreen}/>
                 <Stack.Screen name="Search" component={SearchScreen} />
                 <Stack.Screen name="Library" component={MyLibrary} />
                 <Stack.Screen name="Profile" component={Profile} />
                 <Stack.Screen name="BookPage" component={BookPage} />
                 <Stack.Screen name="BookPreview" component={BookPreviewPage} />
-                <Stack.Screen name="SignUp" component={SignUp}/>
               </>
             )}
           </React.Fragment>

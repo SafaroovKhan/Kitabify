@@ -14,12 +14,14 @@ const Genres = () => {
     <>
       <View style={styles.genrecontainer}>
         <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ paddingLeft: 20 }}>
-          <GenreBox genreName={"Fantasy"} onPress={() => handleGenrePress("Fantasy")} />
-          <GenreBox genreName={"Fiction"} onPress={() => handleGenrePress("Fiction")} />
-          <GenreBox genreName={"Non-Fiction"} onPress={() => handleGenrePress("Non-Fiction")} />
-          <GenreBox genreName={"Astronomy"} onPress={() => handleGenrePress("Astronomy")} />
-          <GenreBox genreName={"Mystery"} onPress={() => handleGenrePress("Mystery")} />
-          <GenreBox genreName={"Discipline"} onPress={() => handleGenrePress("Discipline")} />
+          <GenreBox genreName={"Ən Çox Sevilənlər"} onPress={() => handleGenrePress("Ən Çox Sevilənlər")} />
+          <GenreBox genreName={"Psixologiya"} onPress={() => handleGenrePress("Psixologiya")} />
+          <GenreBox genreName={"Fəsəfə"} onPress={() => handleGenrePress("Fəsəfə")} />
+          <GenreBox genreName={"Productivity"} onPress={() => handleGenrePress("Productivity")} />
+          <GenreBox genreName={"Karyera və Uğur"} onPress={() => handleGenrePress("Karyera və Uğur")} />
+          <GenreBox genreName={"Texnologiya"} onPress={() => handleGenrePress("Texnologiya")} />
+          <GenreBox genreName={"Yaradıcılıq"} onPress={() => handleGenrePress("Yaradıcılıq")} />
+          <GenreBox genreName={"Kommunikasiya"} onPress={() => handleGenrePress("Kommunikasiya")} />
         </ScrollView>
       </View>
       <View style={styles.booktextbox}>

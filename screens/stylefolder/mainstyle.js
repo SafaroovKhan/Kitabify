@@ -640,7 +640,7 @@ export const styles = StyleSheet.create({
         height: "100%",
         alignItems: "center",
         justifyContent: "flex-start",
-        gap: 180,
+        gap: 30,
         backgroundColor: "#FF9900"
     },
     signUpPageTopBar: {
@@ -659,8 +659,16 @@ export const styles = StyleSheet.create({
     },
     signUpPageContainer: {
         width: 330,
-        alignItems: "flex-start",
+        height: 700,
+        justifyContent: "center",
+        alignItems: "center",
         gap: 30
+    },
+    signUpPageBox: {
+        width: "100%",
+        height: "100%",
+        alignItems: "center",
+        justifyContent: "flex-start",
     },
     signUpPageHeader: {
         fontSize: 50,
@@ -668,10 +676,45 @@ export const styles = StyleSheet.create({
         color: "#fff",
         marginBottom: 5
     },
+
     signUpPageText:{
-        fontSize: 18,
+        fontSize: 16,
         fontFamily: "Lora",
         color: "#fff",
+    },
+    signUpPageForms: {
+        display: "flex",
+        alignItems: "flex-start",
+        justifyContent: "flex-start",
+        gap: 10,
+        marginTop: 30 
+    },
+    input: {
+        width: 300,
+        height: 50,
+        fontFamily: "Lora",
+        fontSize: 20,
+        color: "#fff",
+        borderBottomColor: "#fff",
+        borderBottomWidth: 2,
+        position: "relative"
+    },
+    passVisBtnBox: {
+        width: 50,
+        height: 30,
+        position: "absolute",
+        top: 15,
+        right: 0,
+        backgroundColor: "#FF9900",
+        alignItems: "flex-end"
+    },
+    passVisBtn:{
+        color: "#fff",
+        marginRight: 15
+    },
+    signUpPageButtons: {
+        marginTop: 80,
+        gap: 10
     },
     signUpPageBtn: {
         width: 320,
