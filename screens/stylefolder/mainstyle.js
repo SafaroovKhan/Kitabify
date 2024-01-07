@@ -41,8 +41,8 @@ export const styles = StyleSheet.create({
         left: 0
     },
     loadinglogo: {
-        width: 250,
-        height: 250,
+        width: 400,
+        height: 400,
     },
     // Subscription Screen
     subScreen: {
@@ -736,6 +736,122 @@ export const styles = StyleSheet.create({
         fontSize: 24,
         fontFamily: "Lora"
     },
+    // Get Started Screen
+    getStartedScreen: {
+        width: "100%",
+        height: "100%",
+        position: "relative",
+        alignItems: "center",
+        justifyContent: "center"
+    },
+    getStartedBackground: {
+        position: "absolute",
+        width: "100%",
+        height: "100%",
+    },
+    getStartedContainer:{
+        width: "90%",
+        height: "90%",
+        alignItems: "center",
+        justifyContent: "flex-end",
+        gap: 10,
+    },
+    getStartedTextBox: {
+        width: 320,
+        height: "auto",
+    },
+    getStartedHeader: {
+        fontSize: 36,
+        fontFamily: "Lora",
+        color: "#fff"
+    },
+    getStartedText: {
+        fontSize: 18,
+        fontFamily: "Lora",
+        color: "#fff"
+    },
+    getStartedBtn:{
+        width: 320,
+        height: 70,
+        backgroundColor: "#ffe4ba",
+        borderRadius: 15,
+        alignItems: "center",
+        justifyContent: "center"
+    },
+    getStartedBtnText: {
+        fontFamily: "Lora",
+        fontSize: 24,
+    },
+    // About Us Screen 
+    aboutUsScreen: {
+        width: "100%",
+        height:"100%",
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: "#FF9900"
+    },
+    aboutUsContainer: {
+        width: "90%",
+        height: '90%',
+        alignItems: "center",
+        justifyContent: "space-between"
+    },
+    aboutUsGif:{
+        width: "100%",
+        height: "auto",
+        alignItems: "center",
+        justifyContent: "center",
+        marginTop: 40
+    },
+    aboutUsIllu: {
+        width: 300,
+        height: 300,
+    },
+    aboutUsContent: {
+        width: "100%",
+        height: "auto",
+        alignItems: "center",
+        justifyContent: "center",
+        gap: 10
+    },
+    aboutUsTextBox: {
+        width: "90%",
+        alignItems: "flex-start",
+        justifyContent: "flex-start",
+    },
+    aboutUsHeader: {
+        fontSize: 38,
+        fontFamily: "Lora",
+        color: "#fff"
+    },
+    aboutUsHeaderVip:{
+        fontSize: 38,
+        fontFamily: "Lora",
+        color: "#fff"
+    },
+    aboutUsText: {
+        fontSize: 18,
+        fontFamily: "Lora",
+        color: "#fff"
+    },
+    aboutUsBtns: {
+        alignItems: "center",
+        justifyContent: "center",
+        gap: 10
+    },
+    aboutUsBtn: {
+        width: 320,
+        height: 70,
+        backgroundColor: "#ffe4ba",
+        borderRadius: 15,
+        alignItems: "center",
+        justifyContent: "center"
+    },
+    aboutUsBtnText: {
+        fontFamily: "Lora",
+        fontSize: 24,
+    }
+
 
 
     

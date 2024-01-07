@@ -11,7 +11,8 @@ import MyLibrary from './screens/MyLibrary/MyLibrary';
 import Profile from './screens/Profile/Profile';
 import BookPreviewPage from './screens/BookPreviewPage/BookPreviewPage';
 import SignUp from './screens/SignUp/SignUp';
-
+import GetStarted from './screens/GetStarted/GetStarted';
+import AboutUs from './screens/AboutUs/AboutUs';
 
 const Stack = createNativeStackNavigator();
 
@@ -47,13 +48,15 @@ export default function App() {
               <Stack.Screen name='SubScreen' component={Subscription}/>
             ) : (
               <>
-                <Stack.Screen name="SignUp" component={SignUp}/>
+                <Stack.Screen name="GetStarted" component={GetStarted}/>
                 <Stack.Screen name="Home" component={HomeScreen}/>
                 <Stack.Screen name="Search" component={SearchScreen} />
                 <Stack.Screen name="Library" component={MyLibrary} />
                 <Stack.Screen name="Profile" component={Profile} />
                 <Stack.Screen name="BookPage" component={BookPage} />
                 <Stack.Screen name="BookPreview" component={BookPreviewPage} />
+                <Stack.Screen name="SignUp" component={SignUp}/>
+                <Stack.Screen name="AboutUs" component={AboutUs}/>
               </>
             )}
           </React.Fragment>
